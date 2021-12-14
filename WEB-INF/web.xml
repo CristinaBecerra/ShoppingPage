@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+                      http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+  version="3.0"
+  metadata-complete="true">  	
+	
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+	<context-param>
+		<param-name>articulos</param-name>
+		<param-value>Bufanda,5,7.5;Camisa,10,15.0;Camisa2,20,20.0;Camiseta,0,5.25;Pantalon,8,22.23;Zapatillas,0,30.14;Tacones,2,12.78;Vestido,4,70.0</param-value>
+	</context-param>
+	
+	<servlet>
+		<servlet-name>ListaArt</servlet-name>
+		<servlet-class>ListaArt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListaArt</servlet-name>
+		<url-pattern>/ListaArt</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>VerCesta</servlet-name>
+		<servlet-class>VerCesta</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>VerCesta</servlet-name>
+		<url-pattern>/VerCesta</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>Salir</servlet-name>
+		<servlet-class>Salir</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Salir</servlet-name>
+		<url-pattern>/Salir</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>GestionCarrito</servlet-name>
+		<servlet-class>GestionCarrito</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GestionCarrito</servlet-name>
+		<url-pattern>/GestionCarrito</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ConfirmarPedido</servlet-name>
+		<servlet-class>ConfirmPedido</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ConfirmarPedido</servlet-name>
+		<url-pattern>/ConfirmarPedido</url-pattern>
+	</servlet-mapping>
+	
+</web-app>
