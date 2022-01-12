@@ -6,7 +6,7 @@
  
  # TO RUN THIS APP IN YOUR PC: 
 -->Install Tomcat
--->Copy this file to Tomcat webapps directory
+-->Copy this directory to your Tomcat webapps directory
 -->Turn on Tomcat
 -->Access to localhost:yourport/ShoppingPage
 -->Enjoy the web app!
@@ -21,3 +21,7 @@
 
 <h2>TICKET</h2>
 <img src="screenshots/Ticket.PNG" width="550">
+
+# EXTRAS
+-->You can leave without buying and the stock of the product will be refilled.
+-->Or you can make an order and the globlal stock will be updated too.
