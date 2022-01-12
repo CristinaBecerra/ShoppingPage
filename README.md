@@ -23,5 +23,5 @@
 <img src="screenshots/Ticket.PNG" width="550">
 
 # EXTRAS
--->You can leave without buying and the stock of the product will be refilled.
--->Or you can make an order and the globlal stock will be updated too.
+-->You can leave without buying and the stock of the product will be refilled. <br>
+-->Or you can make an order and the globlal stock will be updated too. 
